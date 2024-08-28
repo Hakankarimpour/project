@@ -1,0 +1,77 @@
+* {
+  background-color: rgb(247, 247, 247);
+}
+header {
+  font-family: "poppinzs";
+  src: url(assets/woff/Poppins-Medium_1.woff) format(woff)
+    url(assets/ttf/Poppins-Medium.ttf) format(ttf);
+  width: auto;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  margin-top: 140px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.fill-current {
+  width: 27px;
+}
+.fill-current:hover {
+  color: rgb(121, 89, 250);
+}
+.supertape {
+  color: #0a0a0a;
+}
+
+.supertape:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.dashboard{
+    color: #0a0a0a;
+}
+.dashboard:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.fill {
+  width: 13.5px;
+  text-align: right;
+}
+.all-in-one {
+  color: #a3a3a3;
+}
+header ~ .all-in-one {
+  color: #0a0a0a;
+}
+.button {
+  color: white;
+  background-color: black;
+  padding: 16px 29px;
+  border-radius: 20px;
+  font-size: 29px;
+}
+.button:hover {
+  background-color: rgb(121, 89, 250);
+  font-size: 40px;
+  transition: font-size 0.3s;
+}
+
+
+.felesh {
+  width: 13.5px;
+  color: white;
+}
+.felesh {
+  width: 27px;
+  transition: width 0.3s;
+}
