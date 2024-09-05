@@ -1,0 +1,95 @@
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+ul li{
+  list-style: none;
+}
+.header h1{
+font-weight: 300;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 10px;
+}
+.fill-current {
+  display: inline-block;
+  width: 27px;
+}
+.fill-current:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  margin-top: 140px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.supertape {
+  color: #0a0a0a;
+}
+
+.supertape:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.dashboard {
+  color: #0a0a0a;
+}
+.dashboard:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.fill {
+  width: 13.5px;
+  text-align: right;
+}
+.all-in-one {
+  color: #a3a3a3;
+}
+header ~ .all-in-one {
+  color: #0a0a0a;
+}
+.button {
+  color: white;
+  background-color: black;
+  padding: 16px 29px;
+  border-radius: 20px;
+  font-size: 29px;
+  display: inline-block;
+  
+}
+.button i {
+  color: white;
+  background-color: black;
+  display: inline-block;
+ 
+}
+.button :not(i){
+  transition-duration: .15s;
+}
+
+.button:hover,
+.button:hover i {
+  background-color: rgb(121, 89, 250);
+  font-size: 38px;
+  transition: font-size 0.3s; 
+}
+
+.felesh {
+  width: 13.5px;
+  color: white;
+}
+.felesh {
+  width: 27px;
+  transition: width 0.3s;
+}
