@@ -1,0 +1,337 @@
+/* @font-face {
+  font-family: "poppins";
+  src: url(../woff/Poppins-Medium.woff)format(woff) url(../ttf/Poppins-Medium.ttf) format(ttf);
+width: 500;
+} */
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+.header h1 {
+  font-weight: 300;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 10px;
+}
+.fill-current {
+  display: inline-block;
+  width: 27px;
+}
+.fill-current:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.none {
+  padding: 0px;
+}
+.none li {
+  list-style: none;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  margin-top: 140px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.supertape {
+  color: #0a0a0a;
+  position: fixed;
+  top: 10px;
+  left: 4px;
+}
+.supertape:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.dashboard {
+  color: #0a0a0a;
+  position: fixed;
+  right: 4px;
+  top: 10px;
+}
+.dashboard:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.fill {
+  width: 13.5px;
+  text-align: right;
+}
+.all-in-one {
+  color: #a3a3a3;
+}
+header ~ .all-in-one {
+  color: #0a0a0a;
+}
+.button {
+  color: white;
+  background-color: black;
+  padding: 16px 29px;
+  border-radius: 20px;
+  font-size: 29px;
+  display: inline-block;
+}
+.button i {
+  color: white;
+  background-color: black;
+  display: inline-block;
+}
+.button :not(i) {
+  transition-duration: 0.15s;
+}
+.button:hover,
+.button:hover i {
+  background-color: rgb(121, 89, 250);
+  font-size: 38px;
+  transition: font-size 0.3s;
+}
+.felesh {
+  width: 13.5px;
+  color: white;
+}
+.felesh {
+  width: 27px;
+  transition: width 0.3s;
+}
+ul li p a {
+  color: rgb(121, 89, 250);
+}
+ul h3 {
+  font-size: 28px;
+  font-weight: 100;
+  margin-bottom: 0px;
+  margin-top: 120px;
+}
+ul p {
+  text-transform: uppercase;
+  word-spacing: 5px;
+  margin-top: 4px;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul p .platforms,
+ul p .templates:hover {
+  color: #0a0a0a;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+/* ul li :not(:last-child)::after{
+  counter-reset:"";
+  border-left: 2px dashed #464242;
+display: block;
+height: 50px;
+  height: 50px;
+  margin:10px 300px 10px 300px ;
+} */
+
+.dot {
+  display: flex;
+  justify-content: center;
+}
+.pay-monthly {
+  background-color: white;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-right: 6px;
+  color: rgb(121, 89, 250);
+  border: 1px solid rgb(121, 89, 250);
+}
+
+.pay-monthly,
+.pay-yearly:hover {
+  cursor: pointer;
+}
+.pay-yearly {
+  border: 1px solid #a3a3a3;
+  color: #a3a3a3;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 6px 15px;
+}
+.pay-yearly:hover {
+  color: #0a0a0a;
+  border: 1px solid #0a0a0a;
+}
+.section p {
+  color: #606060;
+  font-size: 13px;
+  font-weight: 450;
+  word-spacing: 5px;
+  margin-top: 5px;
+  margin: 5px 0px 40px 0px;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.free {
+  background-color: #f6f6f6;
+  border-radius: 15px;
+  font-weight: 300;
+}
+.free .growing,
+.pro .for {
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  color: #606060;
+  font-size: 15px;
+  line-height: 1.5;
+  word-spacing: 6px;
+  font-weight: 380;
+}
+
+.free-free {
+  display: block;
+  color: #606060;
+  font-weight: 100;
+  font-size: 34px;
+}
+.mo,
+.mo2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 100;
+}
+.pro {
+  background-color: #f6f6f6;
+  margin-left: 4px;
+  border-radius: 15px;
+  width: 300;
+}
+.container ul li {
+  font-family: Tahoma, sans-serif;
+  font-weight: 100;
+  text-align: justify;
+  word-spacing: 3px;
+}
+.pro-pro {
+  display: block;
+  color: rgb(121, 89, 250);
+  font-weight: 100;
+  font-size: 34px;
+}
+.compare {
+  display: block;
+  margin: 70px 0px 70px 0px;
+  word-spacing: 10px;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  color: #606060;
+  text-decoration: underline;
+  font-size: 15px;
+}
+.button2 {
+  background-color: rgb(121, 89, 250);
+  padding: 20px 40px;
+  border-radius: 20px;
+  font-size: 29px;
+  display: inline-block;
+  border: none;
+  font-family: auto;
+  color: white;
+}
+
+.button2:hover,
+.button2:hover i {
+  background-color: black;
+  font-size: 31px;
+  transition: font-size 0.3s;
+}
+.fill-current2 {
+  height: 300px;
+  width: 100%;
+}
+.fill-current2-1 {
+  width: 27px;
+  padding-top: 150px;
+}
+.footer p {
+  text-transform: uppercase;
+  word-spacing: 5px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-weight: 480;
+  margin-bottom: 50px;
+}
+.footer p.about {
+  color: rgb(121, 89, 250);
+}
+.footer p a:hover {
+  cursor: pointer;
+}
+.footer ul {
+  list-style: none;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+.footer ul li a {
+  color: #0a0a0a;
+  text-decoration: underline;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.footer ul li a:hover {
+  color: rgb(121, 89, 250);
+}
+.container2 {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+.container2 .youtiub .yt {
+  font-size: 10px;
+  color: #606060;
+}
+.container2 .youtiub a,
+.container2 .instagram a {
+  color: #0a0a0a;
+}
+.container2 .youtiub:hover,
+.container2 .instagram:hover,
+.container2 .youtiub a:hover,
+.container2 .instagram a:hover {
+  color: rgb(121, 89, 250);
+  border-color: rgb(121, 89, 250);
+}
+.container2 .instagram,
+.container2 .youtiub {
+  background-color: white;
+  border: 1px solid #0a0a0a;
+  padding: 35px 25px;
+  border-radius: 10px;
+}
+.container2 .instagram {
+  margin-left: 4px;
+}
+.container2 .youtiub {
+  margin-right: 4px;
+}
+
+.Supertape-end {
+  height: 100px;
+  margin-top: 56px;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+.Supertape-end a {
+  display: inline-block;
+  font-size: 270px;
+  color: #bfbfbf;
+  font-weight: 400;
+}
+.Supertape-end a:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.4s;
+}
