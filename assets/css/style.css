@@ -4,15 +4,18 @@
   text-align: center;
   transition: all 0.3s;
 }
-.none {
-  padding: 0px;
+h1 {
+  font-size: 3rem;
+  line-height: 30px;
 }
-.none li {
-  list-style: none;
+a {
+  text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 /* HEADER */
 
 .header h1 {
@@ -56,13 +59,6 @@ ul li {
   transition: color 0.8s;
 }
 
-h1 {
-  font-size: 3rem;
-  line-height: 30px;
-}
-a {
-  text-decoration: none;
-}
 .header {
   margin-top: 140px;
   text-align: center;
@@ -112,21 +108,25 @@ header ~ .all-in-one {
 
 /* SECTIONS */
 
-.video{
+.video {
   display: flex;
   justify-content: center;
   margin-top: 70px;
 }
 
-.video div{
- 
+.video div {
   background-color: #dad5d5;
-height: 500px;
-width: 500px;
-
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px 0.2px;
 }
-
-
+.none {
+  padding: 0px;
+}
+.none li {
+  list-style: none;
+}
 ul li p a {
   color: #7c44fce6;
 }
@@ -156,14 +156,12 @@ ul p .templates:hover {
   padding-left: 0px;
   margin: 100px 0px;
 }
-.section ul li img{
+.section ul li img {
   width: 250px;
 }
 .section ul li:not(:last-child) {
   margin-right: 30px;
 }
-
-
 
 .dot {
   display: flex;
@@ -404,12 +402,15 @@ ul p .templates:hover {
 
 .Supertape-end {
   font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  width: 100%;
 }
 .Supertape-end a {
-  display: inline-block;
+  display:block;
   font-size: 270px;
+
   color: #bfbfbf;
   font-weight: 200;
+  width: 100%;
 }
 .Supertape-end a:hover {
   color: #7c44fce6;

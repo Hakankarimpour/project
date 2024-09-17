@@ -1,0 +1,79 @@
+@media all and (max-width: 992px) {
+  body {
+    margin: 0;
+    width: auto;
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 0.5;
+  }
+
+  .header {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  .button {
+    font-size: 20px;
+  }
+
+  .button:hover,
+  .button i:hover {
+    font-size: 22px;
+  }
+  .none h3 {
+    font-size: 22px;
+    margin-top: 70px;
+  }
+  .none li p,
+  footer p {
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+
+  .video {
+    margin-top: 40px;
+  }
+  .video div {
+    height: 300px;
+    width: 300px;
+    display: block;
+  }
+  .section {
+    width: auto;
+  }
+  .section ul {
+    display: block;
+  }
+  .section ul li img {
+    width: 300px;
+  }
+  .section ul li {
+    margin: 0px !important;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .free,
+  .pro {
+    margin: auto;
+  }
+  .button2 {
+    font-size: 20px;
+  }
+  .button2:hover {
+    font-size: 22px;
+  }
+
+  .footer p {
+    margin-top: 60px;
+  }
+  .footer ul {
+    font-size: 10px;
+  }
+
+  .Supertape-end a {
+    font-size: 97px;
+  }
+}
