@@ -12,30 +12,29 @@
 
     <header>
       <div class="link">
-        <a href="#" class="supertape">
+          <a href="#" class="supertape">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
-            class="fill-current"
-          >
+            class="fill-current">
             <path
-              d="m639 42.9H361L284.5 145c-11.5 15.4-11.5 36.5 0 51.8l65.6 87.7c4.5 5.8 0 14.4-7 14.4H160.3c-20.2 0-39 9.6-51.2 25.6L.3 469.1h319L409 349.8c4.2-5.4 10.2-8.6 17-8.6h180.8c17.6 0 32-14.4 32-32h0c0-7-2.2-13.8-6.4-19.2l-79.7-106.6c-5.8-7.7-5.8-17.9 0-25.6l86.1-114.9z"
-            ></path>
+              d="m639 42.9H361L284.5 145c-11.5 15.4-11.5 36.5 0 51.8l65.6 87.7c4.5 5.8 0 14.4-7 14.4H160.3c-20.2 0-39 9.6-51.2 25.6L.3 469.1h319L409 349.8c4.2-5.4 10.2-8.6 17-8.6h180.8c17.6 0 32-14.4 32-32h0c0-7-2.2-13.8-6.4-19.2l-79.7-106.6c-5.8-7.7-5.8-17.9 0-25.6l86.1-114.9z">
+            </path>
           </svg>
-          SUPERTAPE</a
-        >
+          SUPERTAPE
+        </a>
         <a href="#" class="dashboard">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 512"
-            class="fill"
-          >
+            class="fill">
             <path
-              d="M319.6 0c7.5-.2 14.1 4.9 15.9 12.1l84 336 37.6-93.9c7.3-18.2 24.9-30.2 44.6-30.2H624c8.8 0 16 7.2 16 16s-7.2 16-16 16H501.7c-6.5 0-12.4 4-14.9 10.1l-56 139.9c-2.6 6.4-9 10.5-15.9 10s-12.8-5.4-14.4-12.1l-78.7-315-82 410.2c-1.5 7.3-7.8 12.7-15.3 12.9s-14.1-4.9-15.9-12.1L150.5 268.1C148.8 261 142.4 256 135 256H16c-8.8 0-16-7.2-16-16s7.2-16 16-16H135c22 0 41.2 15 46.6 36.4l40.7 162.7 82-410.2C305.8 5.5 312.1 .2 319.6 0z"
-            ></path>
+              d="M319.6 0c7.5-.2 14.1 4.9 15.9 12.1l84 336 37.6-93.9c7.3-18.2 24.9-30.2 44.6-30.2H624c8.8 0 16 7.2 16 16s-7.2 16-16 16H501.7c-6.5 0-12.4 4-14.9 10.1l-56 139.9c-2.6 6.4-9 10.5-15.9 10s-12.8-5.4-14.4-12.1l-78.7-315-82 410.2c-1.5 7.3-7.8 12.7-15.3 12.9s-14.1-4.9-15.9-12.1L150.5 268.1C148.8 261 142.4 256 135 256H16c-8.8 0-16-7.2-16-16s7.2-16 16-16H135c22 0 41.2 15 46.6 36.4l40.7 162.7 82-410.2C305.8 5.5 312.1 .2 319.6 0z">
+            </path>
           </svg>
-          DASHBOARD</a
-        >
+          DASHBOARD
+        
+     </a>
       </div>
       <div class="header">
         <h1>Musician website.</h1>
@@ -50,7 +49,44 @@
     </header>
     <!-- SECTIONS -->
 
-    <section></section>
+    <section>
+      <a
+        href="https://www.youtube.com/watch?v=u61SNBnZcb8"
+        target="_blank"
+        rel="noopener noreferrer"
+        @click.prevent="openModal"
+        class="relative flex w-full max-w-[1070px] aspect-square sm:aspect-[5/3] mx-auto mt-12 sm:mt-[88px] mb-20 sm:mb-32 shadow-2xl rounded-2xl overflow-hidden hover:scale-105 ease-smooth duration-700 group"
+        ><div
+          class="absolute top-0 left-0 w-full h-full bg-st-950/5 grain"
+        ></div>
+        <video
+          class="w-full object-cover"
+          poster="/vite/assets/st_hero_reel_poster-DguFnRPs.jpg"
+          playsinline=""
+          muted=""
+          loop=""
+          x-init="$el.load()"
+          @canplay="$el.play()"
+        >
+          <source
+            src="/vite/assets/st_hero_reel-DXiJoiRo.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-st-600/60 backdrop-blur-sm text-st-50 flex items-center justify-center group-hover:bg-accent transition-colors duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+            class="fill-current inline-block size-8 ml-1"
+          >
+            <path
+              d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+            ></path>
+          </svg></div
+      ></a>
+    </section>
     <ul class="none">
       <li>
         <h3>Sync your music</h3>
@@ -113,14 +149,15 @@
     <div class="container">
       <div class="free">
         <p>
-          <span class="free-free">Free</span>
+            <div class="spans">
+              <span class="span1">Free</span> 
+              <span class="span2">$0<sup>/mo</sup></span> 
+        </div>
+        <span class="growing"> for growing artists to
           <br />
-          <span class="mo">$0</span>
-          <sup>/mo</sup>
-          <br />
-          <span class="growing">
-            for growing artists to<br />promote their music & social<br />profiles</span
-          >
+          promote their music & social<br />
+          profiles</span>
+         
         </p>
         <ul>
           <li>Mini-site for your music</li>
@@ -134,15 +171,14 @@
       </div>
       <div class="pro">
         <p>
-          <span class="pro-pro">Pro </span>
-          <br />
-          <span class="mo2">$12</span>
-          <sup>/mo</sup>
-          <br />
-          <span class="for"
-            >For established artists to <br />promote their music, merch,<br />videos,
-            & tour</span
-          >
+          <div class="spans">
+            <span class="span1">Pro</span> 
+            <span class="span2">$12<sup>/mo</sup></span> 
+      </div>
+      <span class="for">
+  For established artists to <br />promote their music, merch,<br />videos,
+            & tour
+          </span>
         </p>
         <ul>
           <li>Full website & marketing toolkit</li>
@@ -177,7 +213,7 @@
         Supertape is an independent , three-person <br />
         software company founded by musicians with <br />
         deep roots in design, tech, and media.
-        <a class="about">About <i class="fa-solid fa-arrow-right"></i></a>
+        <a>About <i class="fa-solid fa-arrow-right"></i></a>
       </p>
       <ul>
         <li><a href="#">Pricing</a></li>
