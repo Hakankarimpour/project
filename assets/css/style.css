@@ -6,6 +6,7 @@ width: 500;
 * {
   box-sizing: border-box;
   text-align: center;
+  transition: all 0.3s;
 }
 .header h1 {
   font-weight: 300;
@@ -15,9 +16,30 @@ width: 500;
   justify-content: space-between;
   padding: 2px 10px;
 }
+.supertape {
+  color: #0a0a0a;
+  position: fixed;
+  top: 10px;
+  left: 4px;
+}
+.supertape:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
+.dashboard {
+  color: #0a0a0a;
+  position: fixed;
+  right: 4px;
+  top: 10px;
+}
+.dashboard:hover {
+  color: rgb(121, 89, 250);
+  transition: color 0.8s;
+}
 .fill-current {
   display: inline-block;
-  width: 27px;
+  width: 25px;
+  vertical-align: middle;
 }
 .fill-current:hover {
   color: rgb(121, 89, 250);
@@ -41,26 +63,7 @@ a {
   text-align: center;
   margin-bottom: 100px;
 }
-.supertape {
-  color: #0a0a0a;
-  position: fixed;
-  top: 10px;
-  left: 4px;
-}
-.supertape:hover {
-  color: rgb(121, 89, 250);
-  transition: color 0.8s;
-}
-.dashboard {
-  color: #0a0a0a;
-  position: fixed;
-  right: 4px;
-  top: 10px;
-}
-.dashboard:hover {
-  color: rgb(121, 89, 250);
-  transition: color 0.8s;
-}
+
 .fill {
   width: 13.5px;
   text-align: right;
@@ -115,9 +118,9 @@ ul p {
   word-spacing: 5px;
   margin-top: 4px;
   font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
 }
-ul p .platforms,
+ul p .platforms:hover,
 ul p .templates:hover {
   color: #0a0a0a;
   cursor: pointer;
@@ -180,7 +183,7 @@ height: 50px;
   border-radius: 15px;
   font-weight: 300;
 }
-.free .growing,
+/* .free .growing,
 .pro .for {
   font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
   text-transform: uppercase;
@@ -208,7 +211,7 @@ height: 50px;
   margin-left: 4px;
   border-radius: 15px;
   width: 300;
-}
+} */
 .container ul li {
   font-family: Tahoma, sans-serif;
   font-weight: 100;
@@ -230,6 +233,10 @@ height: 50px;
   text-decoration: underline;
   font-size: 15px;
 }
+.compare:hover {
+  color: rgb(121, 89, 250);
+}
+
 .button2 {
   background-color: rgb(121, 89, 250);
   padding: 20px 40px;
@@ -262,10 +269,10 @@ height: 50px;
   font-weight: 480;
   margin-bottom: 50px;
 }
-.footer p.about {
+.footer a {
   color: rgb(121, 89, 250);
 }
-.footer p a:hover {
+.footer a:hover {
   cursor: pointer;
 }
 .footer ul {
