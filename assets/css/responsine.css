@@ -59,6 +59,10 @@
   .pro {
     margin: auto;
   }
+  .free p,
+  .pro p {
+    padding: 16px 10px;
+  }
   .button2 {
     font-size: 20px;
   }
